@@ -2,7 +2,17 @@
 - name: Build and deploy container
   hosts: dockerserver
   become: true
+  vars:
+    container_name: "finexo_container"
   tasks:
-    - name: Build a container
+    - name: Start a container
+      docker_container:
+        image: ${{ image_name }}
+        name: ${{ container_name }}
+        ports:
+          "80:80"
+        state: started
+
+
 
 
