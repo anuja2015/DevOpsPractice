@@ -8,5 +8,5 @@
       docker_image:
         name: ${{ image_name }}
         build:
-          path: ${{ WORKSPACE/finexo }}
+          path: ${{ WORKSPACE/finexo/ }}
         source: build
