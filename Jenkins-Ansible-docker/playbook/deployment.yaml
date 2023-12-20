@@ -1,0 +1,8 @@
+---
+- name: Build and deploy container
+  hosts: dockerserver
+  become: true
+  tasks:
+    - name: Build a container
+
+
