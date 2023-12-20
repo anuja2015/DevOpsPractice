@@ -1,0 +1,12 @@
+---
+- name: create docker image
+  hosts: localhost
+  tasks:
+    vars:
+      image_name: "armdevu/finexo:latest"
+    - name: Build an image
+      docker_image:
+        name: ${{ image_name }}
+        build:
+          path: ${{ WORKSPACE/finexo }}
+        source: build
