@@ -1,4 +1,3 @@
 FROM httpd:latest
 MAINTAINER ANUJA
 COPY ./finexo/*/* /var/local/apache2/htdocs
-EXPOSE 80
