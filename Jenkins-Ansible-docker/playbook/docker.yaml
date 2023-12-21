@@ -8,5 +8,5 @@
       docker_image:
         name: "{{ image_name }}"
         build:
-          path: ../finexo/
+          path: "{{ WORKSPACE }}/Jenkins-Ansible-docker/finexo/"
         source: build
