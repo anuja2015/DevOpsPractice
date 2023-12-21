@@ -1,6 +1,6 @@
 ---
 - name: create docker image
-  hosts: all
+  hosts: dockerserver
   become_user: dockeradmin
   vars:
       image_name: "finexo"
