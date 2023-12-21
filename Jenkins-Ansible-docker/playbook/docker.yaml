@@ -4,6 +4,10 @@
   vars:
       image_name: "finexo"
   tasks:
+    - name: Login to dockerhub"
+      docker_login:
+        username: armdevu
+        password: maarenu2017
     - name: Build an image
       docker_image:
         name: "{{ image_name }}"
