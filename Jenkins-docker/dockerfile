@@ -1,3 +1,2 @@
 FROM httpd:latest
-MAINTAINER ANUJA
-COPY ./finexo/*/* /var/local/apache2/htdocs
+COPY ./finexo/ /usr/local/apache2/htdocs/
