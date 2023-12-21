@@ -1,7 +1,7 @@
 ---
 - name: create docker image
   hosts: all
-  become: dockeradmin
+  become_user: dockeradmin
   vars:
       image_name: "finexo"
   tasks:
