@@ -22,7 +22,7 @@
         images: true
       register: docker_info
     - name: remove the images
-      docker_images:
+      docker_image:
         name: "{{ item }}"
         state: absent
       loop: "{{ docker_info.images | map(attribute='Id') | list }}"
