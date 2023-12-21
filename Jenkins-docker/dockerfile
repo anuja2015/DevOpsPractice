@@ -1,4 +1,4 @@
 FROM httpd:latest
 MAINTAINER ANUJA
-COPY finexo/*/* /usr/share/nginx/html/
+COPY ./finexo/*/* /var/local/apache2/htdocs
 EXPOSE 80
