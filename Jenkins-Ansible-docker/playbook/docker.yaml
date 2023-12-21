@@ -17,6 +17,16 @@
         push: true
         repository: armdevu/finexo
         tag: 1.1
+    - name: Remove the images from the local
+      docker_host_info:
+        images: true
+      register: docker_info
+    - name: remove the images
+      docker_images:
+        name: "{{ item }}"
+        state: absent
+      loop: "{{ docker_info.images | map(attribute='Id') | list }}"
+      
     
         
     
