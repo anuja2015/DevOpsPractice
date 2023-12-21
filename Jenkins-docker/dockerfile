@@ -1,5 +1,4 @@
-FROM nginx:stable
+FROM httpd:latest
 MAINTAINER ANUJA
 COPY finexo/*/* /usr/share/nginx/html/
 EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
