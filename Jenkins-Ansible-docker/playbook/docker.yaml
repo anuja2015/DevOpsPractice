@@ -8,14 +8,19 @@
       docker_login:
         username: armdevu
         password: maarenu2017
-    - name: Build an image
+    - name: Build and push a docker image to dockerhub
       docker_image:
         name: "{{ image_name }}"
         build:
           path: /home/dockeradmin/Jenkins-Ansible-docker/
         source: build
+        tag: 1.1
         push: true
-        repository: armdevu/finexo
+        repository: armdevu/finexo:1.1
+    - name: Remove the image
+      docker_image:
+        state: absent
+        name: "{{ image_name}}
         tag: 1.1
         
     
