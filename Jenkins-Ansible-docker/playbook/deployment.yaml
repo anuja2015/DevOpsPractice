@@ -2,12 +2,23 @@
 - name: Build and deploy container
   hosts: dockerserver
   vars:
-    container_name: "finexo_container"
-    image_name: "finexo:latest"
+    container_name: "finexoapp_container"
   tasks:
+    - name: Get running containers
+      docker_host_info:
+        containers: yes
+      register: docker_info
+    - name: Stop running containers
+      docker_container:
+        name: "{{ item }}"
+        state: stopped
+      loop: "{{ docker_info.containers | map(attribute='Id') | list }}"
+    - name: Remove existing containers
+      shell:
+        cmd: docker container prune -f     
     - name: Start a container
       docker_container:
-        image: "{{ image_name }}"
+        image: armdevu/finexo:1.1
         name: "{{ container_name }}"
         ports:
           "80:80"
