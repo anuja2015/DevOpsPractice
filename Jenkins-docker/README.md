@@ -128,7 +128,8 @@ Push it to the repository.
 <img width="634" alt="Buildstep1" src="https://github.com/anuja2015/DevOpsPractice/assets/16287330/d5a5f5bc-6d32-4d1f-b901-87753f4003fa">
 
 
-<img width="629" alt="Buildstep2" src="https://github.com/anuja2015/DevOpsPractice/assets/16287330/d5b4ff5b-2530-47b4-8087-e9de501ad8b8">
+<img width="859" alt="sshadvanced" src="https://github.com/anuja2015/DevOpsPractice/assets/16287330/0765d627-dbd3-4bbd-9ba9-c02415bd22a8">
+
 
 
 ## 9. Build now.
