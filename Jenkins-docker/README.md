@@ -134,6 +134,10 @@ Push it to the repository.
 
 ## 9. Build now.
 
+## 10. Access http://<ipaddress>:80/index.html
+
+<img width="953" alt="final" src="https://github.com/anuja2015/DevOpsPractice/assets/16287330/9ba09fb1-af9e-4d8d-92dd-dfa324b71da9">
+
 
 
 
