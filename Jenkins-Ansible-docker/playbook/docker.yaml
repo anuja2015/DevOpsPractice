@@ -8,5 +8,5 @@
       docker_image:
         name: "{{ image_name }}"
         build:
-          path: Jenkins-Ansible-docker/finexo
+          path: ~/Jenkins-Ansible-docker/finexo
         source: build
