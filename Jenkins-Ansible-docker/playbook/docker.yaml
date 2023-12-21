@@ -1,12 +1,12 @@
 ---
 - name: create docker image
-  hosts: localhost
+  hosts: all
   tasks:
     vars:
-      image_name: "armdevu/finexo:latest"
+      image_name: "finexo"
     - name: Build an image
       docker_image:
         name: ${{ image_name }}
         build:
-          path: ${{ WORKSPACE/finexo/ }}
+          path: Jenkins-Ansible-Docker/finexo/
         source: build
