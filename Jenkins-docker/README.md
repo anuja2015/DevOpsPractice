@@ -99,12 +99,13 @@ __Manage Jenkins-> Plugins-> Available Plugins__.
 
 __Manage Jenkins-> System -> Add SSH server
 
+<img width="800" alt="ssh" src="https://github.com/anuja2015/DevOpsPractice/assets/16287330/c93c7e54-99be-48a6-918f-38525e02035b">
 
-[!Screenshot](C:\Users\AnujaManoj\Pictures\Screenshots\project1\ssh.png)
 
 Add the private key of the jenkins machine in the advanced settings.
 
-[!Screenshot](C:\Users\AnujaManoj\Pictures\Screenshots\project1\sshadvanced.png)
+<img width="859" alt="sshadvanced" src="https://github.com/anuja2015/DevOpsPractice/assets/16287330/7529156f-1fe5-4443-b9d5-63295096eef2">
+
         
 ## 7. Create a dockerfile 
 
@@ -118,13 +119,17 @@ Push it to the repository.
 
 ## 8. Create a jenkins freestyle job and Configure
 
-[!Screenshot](C:\Users\AnujaManoj\Pictures\Screenshots\project1\sourcecodemanagement.png)
+<img width="654" alt="sourcecodemanagement" src="https://github.com/anuja2015/DevOpsPractice/assets/16287330/821eb715-1758-4ca9-91e2-c2c83d9dfa14">
 
-[!Screenshot](C:\Users\AnujaManoj\Pictures\Screenshots\project1\buildenvironment.png)
 
-[!Screenshot](C:\Users\AnujaManoj\Pictures\Screenshots\project1\Buildstep1.png)
+<img width="415" alt="buildenvironment" src="https://github.com/anuja2015/DevOpsPractice/assets/16287330/906ef3a2-fd96-42bc-9f70-91b066cd78d1">
 
-[!Screenshot](C:\Users\AnujaManoj\Pictures\Screenshots\project1\Buildstep2.png)
+
+<img width="634" alt="Buildstep1" src="https://github.com/anuja2015/DevOpsPractice/assets/16287330/d5a5f5bc-6d32-4d1f-b901-87753f4003fa">
+
+
+<img width="629" alt="Buildstep2" src="https://github.com/anuja2015/DevOpsPractice/assets/16287330/d5b4ff5b-2530-47b4-8087-e9de501ad8b8">
+
 
 ## 9. Build now.
 
