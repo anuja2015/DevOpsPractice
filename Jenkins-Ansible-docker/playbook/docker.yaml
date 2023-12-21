@@ -25,6 +25,7 @@
       docker_image:
         name: "{{ item }}"
         state: absent
+        force_remove: true
       loop: "{{ docker_info.images | map(attribute='Id') | list }}"
       
     
