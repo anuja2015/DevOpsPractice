@@ -14,9 +14,9 @@
         build:
           path: /home/dockeradmin/Jenkins-Ansible-docker/
         source: build
-        tag: 1.1
         push: true
         repository: armdevu/finexo:1.1
+        tag: 1.1
     - name: Remove the image
       docker_image:
         state: absent
