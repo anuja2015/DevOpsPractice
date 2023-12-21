@@ -104,7 +104,7 @@ __Manage Jenkins-> System -> Add SSH server
 
 Add the private key of the jenkins machine in the advanced settings.
 
-<img width="859" alt="sshadvanced" src="https://github.com/anuja2015/DevOpsPractice/assets/16287330/7529156f-1fe5-4443-b9d5-63295096eef2">
+<img width="859" alt="sshadvanced" src="https://github.com/anuja2015/DevOpsPractice/assets/16287330/0765d627-dbd3-4bbd-9ba9-c02415bd22a8">
 
         
 ## 7. Create a dockerfile 
@@ -128,7 +128,8 @@ Push it to the repository.
 <img width="634" alt="Buildstep1" src="https://github.com/anuja2015/DevOpsPractice/assets/16287330/d5a5f5bc-6d32-4d1f-b901-87753f4003fa">
 
 
-<img width="859" alt="sshadvanced" src="https://github.com/anuja2015/DevOpsPractice/assets/16287330/0765d627-dbd3-4bbd-9ba9-c02415bd22a8">
+<img width="629" alt="Buildstep2" src="https://github.com/anuja2015/DevOpsPractice/assets/16287330/78b425f8-8d4c-47c5-a62f-a9c04a0f69ba">
+
 
 
 
