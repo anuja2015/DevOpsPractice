@@ -10,3 +10,8 @@
         build:
           path: /home/dockeradmin/Jenkins-Ansible-docker/
         source: build
+        push: true
+        repository: armdevu/finexo
+        tag: 1.1
+        
+    
