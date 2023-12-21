@@ -2,12 +2,12 @@
 - name: create docker image
   hosts: all
   become: dockeradmin
-  tasks:
-    vars:
+  vars:
       image_name: "finexo"
+  tasks:
     - name: Build an image
       docker_image:
-        name: ${{ image_name }}
+        name: "{{ image_name }}"
         build:
           path: ../finexo/
         source: build
