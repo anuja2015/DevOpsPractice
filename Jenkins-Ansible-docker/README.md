@@ -3,6 +3,9 @@
 
 Here we create docker image and push it to dockerhub using ansible on Jenkins. We then deploy the container of the same image on a remote machine using ansible and jenkins.
 
+<img width="1000" alt="Project" src="https://github.com/anuja2015/DevOpsPractice/assets/16287330/0b5a69a9-4716-4fcd-9cb6-35efcad86c80">
+
+
 ## Requirements:
 
 1. git repository with code.
@@ -136,9 +139,19 @@ Add the private key of the jenkins user on jenkins machine in the advanced setti
 
 <img width="654" alt="sourcecodemanagement" src="https://github.com/anuja2015/DevOpsPractice/assets/16287330/821eb715-1758-4ca9-91e2-c2c83d9dfa14">
 
+Build steps
 
+<img width="629" alt="sendoverssh" src="https://github.com/anuja2015/DevOpsPractice/assets/16287330/ea421abf-ef74-4221-b296-97cd76ac2eab">
 
+<img width="654" alt="buildstep2" src="https://github.com/anuja2015/DevOpsPractice/assets/16287330/8834d6ef-797b-4666-bca0-224608a30559">
 
+<img width="640" alt="buildstep21" src="https://github.com/anuja2015/DevOpsPractice/assets/16287330/968bfb06-7c94-42d0-8033-d6cc771c40b9">
+
+<img width="635" alt="buildstep3" src="https://github.com/anuja2015/DevOpsPractice/assets/16287330/09dc1585-27ce-4325-b080-7dcc69207b83">
+
+<img width="640" alt="buildstep21" src="https://github.com/anuja2015/DevOpsPractice/assets/16287330/2537158a-4f93-4609-abe2-b7a55b7d7ca1">
+
+Booooommmm!!!! Run the job :)
 
 
 
