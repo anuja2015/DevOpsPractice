@@ -157,4 +157,9 @@ Build steps
 
 
 
+# Jenkins-Ansible-Docker using Jenkins file
+
+The same project can be done as a pipeline with scripted pipeline or Jenkins file. I have added the jenkins file in the repository
+
+
 
